@@ -1,0 +1,28 @@
+control_id,status,evidence,notes
+C01,partial,Draft strategy v0.3,Strategy drafted but not yet approved by the board
+C02,implemented,Org chart 2026,Security lead reports to COO
+C03,partial,Policy folder on SharePoint,Policies exist but last reviewed in 2023
+C04,missing,,No formal risk register
+C05,partial,,Security review only for large projects
+C06,missing,,No internal audit of security controls
+C07,implemented,HR onboarding checklist,Leavers disabled same day
+C08,partial,LMS report,Yearly training only; no phishing simulations
+C09,partial,Spreadsheet,Hardware listed; software and owners missing
+C10,partial,Entra ID conditional access,MFA on email only; VPN and admin accounts not covered
+C11,missing,,Several staff have standing domain admin rights
+C12,implemented,EDR console,EDR on all laptops; patching within 14 days
+C13,partial,DNS records,SPF and DKIM set; DMARC at p=none
+C14,partial,Firewall config,Flat office network; servers in separate VLAN
+C15,na,,No company data on mobile devices (policy forbids)
+C16,missing,,No data classification scheme
+C17,implemented,BitLocker + TLS scan,Disks encrypted; TLS 1.2+ enforced
+C18,partial,Backup job logs,Nightly backups but no offline copy and no restore test
+C19,missing,,No regular vulnerability scanning
+C20,missing,,Never pen tested
+C21,partial,Windows Event Forwarding,Logs collected but nobody reviews alerts
+C22,missing,,No incident response plan
+C23,implemented,Badge system,Server room badge access with logs
+C24,partial,,Public site behind CDN; no WAF; never tested against OWASP Top 10
+C25,missing,,BCP does not cover cyber scenarios
+C26,missing,,No supplier security assessments
+C27,partial,AWS console,Data hosted in-region; CIS benchmark review not done
